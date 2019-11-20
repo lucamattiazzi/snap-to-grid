@@ -1,0 +1,31 @@
+{
+	"name": "snap-to-grid",
+	"version": "0.1.0",
+	"description": "Snaps points to a grid, without superpositions",
+	"license": "MIT",
+	"repository": "YeasterEgg/snap-to-grid",
+	"author": {
+		"name": "Yeasteregg",
+		"email": "l.d.mattiazzi@gmail.com",
+		"url": "https://grokked.it"
+	},
+	"scripts": {
+		"watch": "tsc --watch",
+		"build": "tsc",
+		"test": "jest --watch"
+	},
+	"main": "dist/index.js",
+	"files": [
+		"dist/"
+	],
+	"types": "dist/index.d.ts",
+	"keywords": [
+		"grid"
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"@types/node": "^12.12.11",
+		"jest": "^24.9.0",
+		"typescript": "^3.7.2"
+	}
+}
